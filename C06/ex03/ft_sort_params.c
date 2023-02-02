@@ -6,7 +6,7 @@
 /*   By: jthanikp <marvin@42.fr>                    +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2023/01/25 23:14:39 by jthanikp          #+#    #+#             */
-/*   Updated: 2023/02/03 03:10:36 by jthanikp         ###   ########.fr       */
+/*   Updated: 2023/02/03 03:13:01 by jthanikp         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -52,7 +52,7 @@ int	main(int argc, char *argv[])
 	int		i;
 	
 	i = 1;
-	while (i < j - 1)
+	while (i < argc - 1)
 	{
 		if (ft_strcmp(argv[i], argv[i + 1]) > 0)
 		{
